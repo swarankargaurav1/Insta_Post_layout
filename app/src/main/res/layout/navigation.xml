@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:id="@+id/nav"
+    android:fitsSystemWindows="true"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Gaurav Kumar"
+            android:layout_gravity="center"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E9E6E6" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Home"
+
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Camera"
+
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Data Saver"
+
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="File Upload"
+
+            />
+
+    </LinearLayout>
+
+</android.support.design.widget.NavigationView>
